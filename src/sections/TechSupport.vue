@@ -76,7 +76,7 @@ const featuresList = ref([
     height: 804px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 400px;
+    bottom: 0;
   }
 
   &--right {
@@ -92,7 +92,9 @@ const featuresList = ref([
   }
 
   &__card {
-    box-shadow: 0px 5.45px 36.5px -2.72px #E0E0E040;
+    box-shadow:
+        0px 13.62px 24px -2.72px rgba(224, 224, 224, 0.25),
+        0px 5.45px 36.5px -2.72px rgba(224, 224, 224, 0.25);
     backdrop-filter: blur(32px);
     padding: 32px;
     border-radius: 20px;

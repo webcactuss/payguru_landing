@@ -10,9 +10,11 @@ import WhiteLabel from "@/sections/WhiteLabel.vue";
 import FastStart from "@/sections/FastStart.vue";
 import Features from "@/sections/Features.vue";
 import Geography from "@/sections/Geography.vue";
+import Banner from "@/sections/Banner.vue";
 </script>
 
 <template>
+  <Banner />
   <Header />
   <main>
     <Hero />
