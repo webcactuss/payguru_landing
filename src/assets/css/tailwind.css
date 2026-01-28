@@ -1,0 +1,9 @@
+@import "../fonts/fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "NT Somic", system-ui, sans-serif;
+}
